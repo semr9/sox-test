@@ -82,10 +82,7 @@ const requiredFieldsForIntegration3 = {
     "Folio.folioTransactionDetails<array>.revenueType.revenueTypeCodeParent": /^[A-Za-z\s]+$/ // Letters and spaces
 };
 
-// Export both variables for use in other files
-module.exports = {
-    requiredFieldsForIntegration26,
-    requiredFieldsForIntegration3
-};
+// Export both variables using ES6 module syntax
+export { requiredFieldsForIntegration26, requiredFieldsForIntegration3 };
 
 
